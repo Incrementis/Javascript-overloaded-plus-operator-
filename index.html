@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	
+		<meta charset = "UTF-8">
+		<title>Overloaded "+" operator</title>
+		<script language = "javascript" type = "text/javascript" src = "overload.js"></script>
+	</head>
+	
+	<body>
+	
+		<h3>
+			Addition
+		</h3>
+		
+		<input type = "number" id = "op_one" step = "any">
+		+
+		<input type = "number" id = "op_two" step = "any">
+		=
+		<span id = "result">none</span>
+		
+		<br>
+		<br>
+		<button type = "button" onclick = "calculate()">Calculate</button>
+		
+	
+		<h3>
+			Concatenating strings
+		</h3>
+		
+		<input type = "text" id = "txt_one">
+		+
+		<input type = "text" id = "txt_two">
+		=
+		<span id = "concat">none</span>
+		
+		<br>
+		<br>
+		<button type = "button" onclick = "concatenate()">Concatenate</button>
+		
+	
+		<h3>
+			Pitfall examples
+		</h3>
+		
+		<button type = "button" onclick = "example1()">	3 + true		</button> 
+		<button type = "button" onclick = "example2()">	"3" + 2 + 1		</button> 
+		<button type = "button" onclick = "example3()">	3 + "2" + 1		</button> 
+		<button type = "button" onclick = "example4()">	"3" + (1	+ 2)</button> 
+	
+		<br>
+		<br>
+		<li id = "ex_one"></li>
+		<br>
+		<li id = "ex_two"></li>
+		<br>
+		<li id = "ex_three"></li>
+		<br>
+		<li id = "ex_four"></li>
+		
+		<br>
+		For more explanation please visit - 
+		<a href = "https://github.com/Incrementis/Javascript-overloaded-plus-operator-/wiki"> Floating point overview Wiki
+	
+	</body>
+
+</html>
