@@ -35,7 +35,7 @@ function concatenate()
 
 
 //NOTE: There are different ways to realize and optimize the following examples in js.
-//		To split it in three seperate functions should simplify code readability. 
+//		To split it in four seperate functions should simplify code readability. 
 
 function example1()
 {
